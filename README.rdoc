@@ -1,0 +1,38 @@
+= greatschools
+
+This gem is the Ruby client library for the great schools API.  It allows
+you to integrate Greatschools data into your Ruby applications.
+
+== Installing
+To install the official latest stable version, please use rubygems.
+
+  gem install greatschools
+
+If you would like you can bleeding-edge-it and install HEAD.
+
+  git clone git://github.com/gobstopper/greatschools.git
+  cd greatschools
+  rake install
+
+== Requirements
+
+  * querystring <https://github/dokipen/querystring>
+
+== Configuration options
+
+Basic configuration options
+
+ Greatschools.configure do |config|
+   # sends debug messages to the log
+   config.debug = true
+
+   # use a custom logger
+   config.logger = CustomLogger.new(STDERR)
+
+   # disable typhoeus and use Net::HTTP instead
+   config.typhoeus = false
+ end
+
+== Copyright
+
+Copyright (c) 2013 Gobstopper, Inc. See MIT-LICENSE for details.
