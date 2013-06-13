@@ -8,11 +8,9 @@ platforms :mri do
 end
 
 group :development do
-  gem "jeweler"
-  gem "cucumber"
   gem "rake"
   gem "rspec"
   gem "yard"
-  gem "aruba"
+  gem "jeweler"
 end
 
