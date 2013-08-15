@@ -1,5 +1,7 @@
 = greatschools
 
+THIS GEM IS UNDER DEVELOPMENT AND NOT READY FOR PRIMETIME YET!
+
 This gem is the Ruby client library for the great schools API.  It allows
 you to integrate Greatschools data into your Ruby applications.
 
